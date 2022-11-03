@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: #513252;
+}
+
+.container{
+  background-color: #80558C;
+}
+
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  display: flexbox;
+  border: 30px solid #513252;
+  height: 200vh;
+  margin: 200px;
+  padding-top: 50px;
+  background-color: #FDB9FC;
+  border-radius: 10px;
+}
+
+.Task {
+  width: 60%;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-bottom: 5px dotted #C996CC;
+}
+
+a:hover {
+  color: #FF8B8B;
+}
+
+h1{
+  font-size: 55px
+}
+
+button{
+  border-radius:50px;
+  background-color: #D47AE8;
+  border-color: #D47AE8;
+}
+
+.addTask-Btn{
+  width: 80px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.errorPage {
+  margin: 100px;
+  text-align: center;
+  color: #A66CFF;
+  background-color: white;
+  width:80vw;
+}
